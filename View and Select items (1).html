@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+<style>
+  .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+} 
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+
+.row {margin: 0 -5px;}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+  body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; 
+  font-size: 20px; 
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<body>
+
+<div class="sidenav">
+  <a href="View order.html">View Orders</a>
+  <a href="registration.html">Back to Registration</a>
+  <a href="index.html">Home</a>
+
+</div>
+  
+<head>
+ <div class = "main"> 
+  <title>View and Select Items</title>
+</head>
+<body>
+  
+  <h1 style=" text-align: center; font-size: 250%; background-color: black; color: white"><b><u>View and Select Items</u></b></h1>
+  <p><b> Explore through our diverse selection of coffee blends.</b></p>
+  <p style="font-size: 200%;">COFFEE</p>
+
+  <div class="row">
+    <div class="column">
+      <div class="card">
+    <img src="https://www.lemontreedwelling.com/wp-content/uploads/2021/05/iced-latte-featured.jpg" alt="Iced Latte" style="width:100%">
+    <h1>Iced Latte</h1>
+    <p class="price">RM 13</p>
+    <p>Iced latte: espresso, chilled milk, and ice - a refreshing coffee treat.</p>
+    <p><button>Add to Cart</button></p>
+  
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+    <img src="https://littlebitrecipes.com/wp-content/uploads/2023/07/iced-americano-sq.jpg" alt="Iced Americano" style="width:100%">
+    <h1>Iced Americano</h1>
+    <p class="price">RM 11</p>
+    <p>Iced Americano: espresso, cold water, and ice—a bold, chilled coffee kick.</p>
+    <p><button>Add to Cart</button></p>
+  </div>
+    </div>
+    
+    <div class="column">
+       <div class="card">
+    <img src="https://130529051.cdn6.editmysite.com/uploads/1/3/0/5/130529051/s444124611972565011_p236_i2_w1920.jpeg" alt="Iced Cappuccino" style="width:100%">
+    <h1>Iced Cappuccino</h1>
+    <p class="price">RM 12</p>
+    <p>Iced Cappuccino: espresso, chilled milk, and ice—a creamy, refreshing coffee treat</p>
+    <p><button>Add to Cart</button></p>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="card">
+    <img src="https://goodfoodbaddie.com/wp-content/uploads/2021/09/The-Best-Homemade-Dairy-Free-Iced-matcha-Latte-Recipe-Starbucks-Copy-Cat-1.jpg" alt="Iced Matcha Latte" style="width:100%">
+    <h1>Iced Matcha Latte</h1>
+    <p class="price">RM 13</p>
+    <p>Iced matcha latte: chilled milk, matcha powder, and ice—a refreshing, creamy green tea delight.</p>
+    <p><button>Add to Cart</button></p>
+  </div>
+    </div>
+    
+    <br>
+    <p style= "font-size: 200%"> FOODS</p>
+   
+    
+  <div class="row">
+    <div class="column">
+      <div class="card">
+    <img src="https://pinchandswirl.com/wp-content/uploads/2021/05/Lasagna-with-Cottage-Cheese_sq.jpg" alt="Lasagna" style="width:100%">
+    <h1>Lasagna</h1>
+    <p class="price">RM 15</p>
+    <p>Lasagna: Layers of pasta, tomato sauce, meat, and cheese baked to perfection—a comforting Italian classic.</p>
+    <p><button>Add to Cart</button></p>
+  
+      </div>
+    </div>
+  
+    
+    
+    <div class="column">
+      <div class="card">
+    <img src="https://joyfoodsunshine.com/wp-content/uploads/2018/05/best-easy-french-toast-recipe-4.jpg" alt="French Toast" style="width:100%">
+    <h1>French Toast</h1>
+    <p class="price">RM 8</p>
+    <p>French toast: Bread soaked in eggs and milk, fried golden—a delightful, sweet breakfast delight</p>
+    <p><button>Add to Cart</button></p>
+  </div>
+    </div>
+    
+    <div class="column">
+       <div class="card">
+    <img src="https://sugargeekshow.com/wp-content/uploads/2022/11/croissants_featured.jpg" alt="Croissants" style="width:100%">
+    <h1>Croissants</h1>
+    <p class="price">RM 5</p>
+    <p>Croissants: Buttery, flaky pastries with a light, airy texture—deliciously golden and versatile</p>
+    <p><button>Add to Cart</button></p>
+      </div>
+    </div>
+    
+    <div class="column">
+        <div class="card">
+    <img src="https://bakingamoment.com/wp-content/uploads/2020/06/IMG_8813-bagel-recipe.jpg" alt="Bagel" style="width:100%">
+    <h1>Bagel</h1>
+    <p class="price">RM 6</p>
+    <p>Bagel: Round, chewy bread with a crispy crust and a hole in the center—perfect for various toppings or spreads</p>
+    <p><button>Add to Cart</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="clearfix"></div>
+</body>
+</html>

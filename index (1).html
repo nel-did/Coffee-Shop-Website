@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url(https://thumbs.dreamstime.com/b/top-view-coffee-background-top-view-coffee-background-assorted-coffee-beans-ground-coffee-portafilter-tamper-dark-137656241.jpg);
+}
+
+
+.header h1 {
+  font-size: 40px;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+
+.navbar a.right {
+  float: right;
+}
+
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+
+
+.side {
+  -ms-flex: 30%; 
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+
+.main {   
+  font-size: 28px;
+  -ms-flex: 100%; 
+  flex: 100%;
+  background-color: rgb(165, 90, 19);
+  padding: 100px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>COFFEE PARADISE</h1>
+  
+</div>
+
+<div class="navbar">
+  <a href="#" class="active">Home</a>
+  <a href="registration.html" class="avtive">Register As Member</a>
+  <a href="View and Select items.html">Menu</a>
+  <a href="View order.html">View order</a>
+  <a href="checkout.html">Checkout</a>
+  <a href="Administrator's contact.html" class="right">Contacts</a>
+</div>
+
+  <div class="main">
+    <h2>ABOUT US</h2>
+    <p>Coffeee Paradise</p>
+    <p> is a fragrant sanctuary. 
+      This sanctuary honors the craft of coffee making by providing welcoming cafes where baristas create mouthwatering concoctions. 
+      It's a melting pot of cultures where guests exchange stories over steaming mugs, beyond the alluring aroma. 
+       A respect for the work that goes into every drink is fostered by guided tours through verdant plantations 
+        that highlight the complex process from bean to cup. 
+         It's a haven where time stands still and people may enjoy the small pleasures 
+        of a perfectly brewed cup among the splendor of the natural world...</p>
+    </div>
+<div class="footer">
+  <h2>Come Resgister As A Member</h2>
+  <p style="font-size: 150%;">&#10071;&#10071;&#10071;&#10071;Stand a chance to win <b>A BRAND NEW SMARTPHONE</b> when you register as a member&#10071;&#10071;&#10071;&#10071; A registered member also recieves new vouchers and promotions every month.
+    We guarrentee you will not be disappointed. Come join the coffee family! </p>
+</div>
+</body>
+</html>
